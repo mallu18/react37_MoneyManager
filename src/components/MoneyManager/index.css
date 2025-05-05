@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.app-container {
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.money-manager-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.header {
+  background-color: #ecfccb;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.greeting {
+  color: #475569;
+}
+
+.welcome-msg {
+  color: #475569;
+}
+
+.highlight {
+  color: #84cc16;
+}
+
+.transaction-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.form,
+.history {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #d7dfe9;
+  border-radius: 8px;
+}
+
+.form input,
+.form select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
