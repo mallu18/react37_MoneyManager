@@ -1,7 +1,7 @@
 import {Component} from 'react'
 import {v4 as uuidv4} from 'uuid'
 import MoneyDetails from '../MoneyDetails'
-
+import './index.css'
 import TransactionItem from '../TransactionItem'
 
 const transactionTypeOptions = [
@@ -70,6 +70,7 @@ class MoneyManager extends Component {
       .filter(t => t.type === 'Expenses')
       .reduce((sum, t) => sum + t.amount, 0)
   }
+
   render() {
     const {titleInput, amountInput, typeInput, transactionsList} = this.state
     const incomeAmount = this.getIncome()
